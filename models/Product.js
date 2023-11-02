@@ -26,7 +26,9 @@ Product.init(
     price:{
       type: DataTypes.DECIMAL,
       allowNull: false,
-      validate:{},
+      validate:{
+        isDecimal: true,
+      },
     },
     // category id foreign key
     category_id:{
@@ -41,7 +43,9 @@ Product.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
-      validate:{},
+      validate:{
+        isNumeric: true,
+      },
     },
   },
   {
