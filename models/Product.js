@@ -24,7 +24,7 @@ Product.init(
     },
     // price not null decimal (constraint? validate?)
     price:{
-      type: DataTypes.DECIMAL,
+      type: DataTypes.STRING,
       allowNull: false,
       validate:{
         isDecimal: true,
