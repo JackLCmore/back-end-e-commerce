@@ -22,7 +22,7 @@ This back end application allows for persistant storage of inventory management 
 
 ## Installation and Usage
 
-[Click Here For A Demonstration Video]() 
+[Click Here For A Demonstration Video](https://youtu.be/EHDModmcA2k) 
 
         To install this application:
 * Click on the fork drop down in the upper right hand of this GitHub repository
